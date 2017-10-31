@@ -1,0 +1,46 @@
+{
+  "rooms": [
+    "Salon",
+    "Chambre",
+    "Bureau",
+    "Cuisine"
+  ],
+  "devices": {
+    "Salon": {
+      "devices": [
+        {
+          "name": "Ecran salon",
+          "control": "commandePourControllerLEtat",
+          "command": "commandePourPiloter",
+          "type": "plug",
+          "room": "Salon"
+        }
+      ]
+    },
+    "Bureau": {
+      "devices": [
+        {
+          "name": "Imprimante",
+          "control": "commandePourControllerLEtat",
+          "command": "commandePourPiloter",
+          "type": "plug",
+          "room": "Bureau"
+        },
+        {
+          "name": "LEDs Imprimante",
+          "control": "commandePourControllerLEtat",
+          "command": "commandePourPiloter",
+          "type": "light",
+          "room": "Bureau"
+        },
+        {
+          "name": "LEDs Placard",
+          "control": "commandePourControllerLEtat",
+          "command": "commandePourPiloter",
+          "type": "light",
+          "room": "Bureau"
+        }
+      ]
+    }
+  }
+}

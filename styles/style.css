@@ -1,0 +1,24 @@
+@import url("roomTile.css");
+@import url("deviceTile.css");
+@import url("sidebar.css");
+
+body {
+    color: #dbb886;
+    background: url("../pictures/WoodenBackground.jpg") fixed center no-repeat black;
+}
+
+a {
+    text-decoration: none;
+    color: #dbb886;
+}
+
+
+
+
+
+
+
+
+
+
+
